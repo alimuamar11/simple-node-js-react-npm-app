@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:slim' 
+            image 'httpd' 
             args '-p 3000:3000' 
         }
     }
